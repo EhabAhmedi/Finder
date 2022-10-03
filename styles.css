@@ -181,9 +181,9 @@ animation: animate-profine-picture 800ms 200ms backwards;
 .about-me__picture{
   width: 100%;
   /*improving pic*/
-  transform: scale(3.5);
-  padding-top: 55px;
-  padding-right: 4px;
+  transform: scale(1.2);
+  padding-bottom: 1000px;
+ 
 
 }
 .wave{
