@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Picker</title>
+  </head>
+  <body class="finder__body ">
+    <header class="finder__header">
+      <form id="form">
+        <input type="text" placeholder="Search"   id="search" class="search" onchange="OnSearchChange(event) " />
+      </form>
+    </header>
+    
+    <a href="index.html" class="logo__anchor"> 
+    <div class="personal__logo-finder">
+      <img class="logo__img-finder " src="/assets/Finder-1.png" alt="" />
+      <span class="logo__popper">HOME
+        <i class="fa fa-house"></i>
+      </span>
+    </a>
+    
+    </div>
+    <div  id="tags">
+      <div class="tag">Action</div>
+      <div class="tag">Adventure</div>
+      <div class="tag">Drama</div>
+      <div class="tag">Comedy</div>
+    </div>
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()
+      ">&times;</a>
+
+
+      <div class="overlay-content" id="overlay-content"></div>
+        <a href="javascript:void(0)" class="arrow left-arrow" id="left-arrow"  >&#8250;</a>
+       <a href="javascript:void(0)" class="arrow right-arrow " id="right-arrow">&#8249;</a>
+       
+
+      
+    </div>
+    
+    <main class="finder__main" id="main">
+    
+      <div class="movie">
+        <img class= "skeleton" src="" alt="" />
+        <div class="movie-info">
+          <h3>Movie Title</h3>
+          <span class="green">9.8</span>
+        </div>
+        <div class="overview">
+          <h3>overview</h3>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus
+          praesentium molestiae ea incidunt perferendis dicta aspernatur, ab
+          quasi asperiores porro veniam minima nostrum sit nesciunt dolore ex
+          inventore quisquam ratione?
+        </div>
+      </div>
+      <div class="movie">
+        <img  src="" alt="" />
+        <div class="movie-info">
+          <h3>Movie Title</h3>
+          <span class="green">9.8</span>
+        </div>
+        <div class="overview">
+          <h3>overview</h3>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus
+          praesentium molestiae ea incidunt perferendis dicta aspernatur, ab
+          quasi asperiores porro veniam minima nostrum sit nesciunt dolore ex
+          inventore quisquam ratione?
+        </div>
+      </div>
+      <div class="movie">
+        <img  src="" alt="" />
+        <div class="movie-info">
+          <h3>Movie Title</h3>
+          <span class="green">9.8</span>
+        </div>
+        <div class="overview">
+          <h3>overview</h3>
+
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus
+          praesentium molestiae ea incidunt perferendis dicta aspernatur, ab
+          quasi asperiores porro veniam minima nostrum sit nesciunt dolore ex
+          inventore quisquam ratione?
+        </div>
+        
+      </div>
+      
+    </main>
+    <div class="pageination">
+      <div class="page " id="prev">Previous Page</div>
+      <div class="current" id="current">1</div>
+      <div class="page" id="next">Next Page</div>
+     </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
