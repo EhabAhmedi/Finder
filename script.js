@@ -194,7 +194,7 @@ function getMovies(url) {
         tagsEl.scrollIntoView({ behavior: "smooth" });
       } else {
         main.innerHTML =
-          '<h1 class="no-results"> No Reasults Found With Genre Slected';
+          '<h1 class="no-results"> No Reasults Found With Genres Slected';
       }
     });
 }
@@ -218,7 +218,7 @@ function showMovies(data) {
         <h3>overview</h3>
         ${overview}
         <br/>
-        <button class="know-more" id="${id}">Trailers</buttton>
+        <button class="know-more" id="${id}">More Info</buttton>
 
         </div>
     
